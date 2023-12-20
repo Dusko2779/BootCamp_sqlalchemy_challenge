@@ -63,10 +63,16 @@ Return a JSON list of stations from the dataset.
 /api/v1.0/tobs
 Query the dates and temperature observations of the most-active station for the previous year of data.
 
+![image](https://github.com/Dusko2779/BootCamp_sqlalchemy_challenge/assets/134830906/fb00abf4-7494-4b75-9701-117015e1132a)
+
+
 Return a JSON list of temperature observations for the previous year.
 
 /api/v1.0/<start> and /api/v1.0/<start>/<end>
 Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
+
+![image](https://github.com/Dusko2779/BootCamp_sqlalchemy_challenge/assets/134830906/b64ae713-e2e0-4627-999a-9a42c2fb220c)
+
 
 For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
 
